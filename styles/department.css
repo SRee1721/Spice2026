@@ -1,0 +1,164 @@
+.dept {
+  background-color: white;
+  color: black;
+  padding: 200px 200px;
+  line-height: 1.7;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.dept h1 {
+  color: #000;
+  font-size: 4rem;
+  margin-bottom: 20px;
+  text-align: left;
+  font-weight: 100px;
+}
+
+.dept p {
+  font-size: 2rem;
+  color: #333;
+  text-align: justify;
+}
+
+/* Section titles */
+.dates-remember h1,
+.speakers h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px 40px;
+  justify-content: center;
+  align-items: start;
+  padding: 50px 100px;
+  background: #fff;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 25px 30px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.speakers-section {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.speakers-section h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.speakers-grid {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+/* .speaker-card {
+  width: 260px;
+  text-align: center;
+} */
+.speaker-card {
+  width: 260px;
+  text-align: center;
+  align-items: center;
+  /* === Add these lines === */
+  display: flex;
+  flex-direction: column;
+}
+/* .speaker-card img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  
+  object-fit: cover;
+  margin-bottom: 20px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+} */
+.speaker-card img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+.speaker-card h3 {
+  font-size: 1.25rem;
+  color: #000;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.speaker-card p {
+  /* === Add this line === */
+  flex-grow: 1;
+
+  /* ...your existing p styles... */
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .speakers-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .speaker-card {
+    width: 80%;
+  }
+
+  .speaker-card img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .dept {
+    padding: 100px 30px;
+  }
+
+  .cards-container {
+    grid-template-columns: 1fr;
+    padding: 30px 20px;
+  }
+
+  .dept h1 {
+    font-size: 2.5rem;
+  }
+
+  .dept p {
+    font-size: 1.2rem;
+  }
+}

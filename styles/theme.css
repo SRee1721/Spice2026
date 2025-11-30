@@ -1,0 +1,80 @@
+.themes-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 40px;
+  background-color: #f8f9fa;
+  gap: 5%;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.themes-page h1 {
+  margin: 0;
+  font-size: 2.8rem;
+  color: #343a40;
+  text-align: center;
+}
+
+.themes-page .themes-list-card {
+  list-style-type: none;
+  margin: 0;
+  padding: 40px 50px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 600px;
+}
+
+.themes-page .themes-list-card li {
+  font-size: 1.25rem;
+  color: #495057;
+  line-height: 1.7;
+  padding: 8px 0;
+}
+
+@media (max-width: 960px) {
+  .themes-page {
+    flex-direction: column;
+
+    gap: 40px;
+
+    padding: 80px 40px;
+  }
+
+  .themes-page h1 {
+    flex-basis: auto;
+    flex-grow: 0;
+  }
+
+  .themes-page .themes-list-card {
+    flex-basis: auto;
+    flex-grow: 0;
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .themes-page {
+    padding: 60px 20px;
+  }
+
+  .themes-page h1 {
+    font-size: 2.2rem;
+  }
+
+  .themes-page .themes-list-card {
+    width: 100%;
+    padding: 30px 25px;
+  }
+
+  .themes-page .themes-list-card li {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 900px) {
+  .themes-page {
+    flex-direction: column;
+    gap: 40px;
+  }
+}

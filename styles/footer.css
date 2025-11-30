@@ -1,0 +1,12 @@
+.site-footer {
+  background-color: #212529;
+  color: #f8f9fa;
+  padding: 20px 40px;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.site-footer p {
+  text-align: center;
+  margin: 0;
+  font-size: 1.5rem;
+}

@@ -1,0 +1,79 @@
+.advisory-page {
+  padding: 50px 20px;
+  background-color: #ffffff;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.advisory-page h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #212529;
+  margin-bottom: 50px;
+}
+
+.level-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.national-column,
+.international-column {
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 4px;
+  flex: 1;
+  min-width: 320px;
+  max-width: 550px;
+  color: #000;
+}
+
+.national-column h2,
+.international-column h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e0e0e0;
+}
+.national-column {
+  font-size: 2.5rem;
+}
+
+.advisory-page .team-card {
+  background: none;
+  box-shadow: none;
+  padding: 0;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.advisory-page .team-card:last-child {
+  margin-bottom: 0;
+}
+
+.advisory-page .team-card h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #343a40;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.advisory-page .team-card p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #495057;
+  margin: 0;
+}
+
+@media (max-width: 960px) {
+  .level-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}

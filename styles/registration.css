@@ -1,0 +1,28 @@
+.registration-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 40px;
+  background-color: #f8f9fa;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.registration-page h1 {
+  font-size: 2.8rem;
+  color: #212529;
+  margin-bottom: 50px;
+}
+
+.fees {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  max-width: 900px;
+}
+
+@media (max-width: 768px) {
+  .fees {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,43 @@
+.card {
+  background: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 20px 30px;
+  width: 320px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-heading {
+  font-size: 1.25rem;
+  color: #222;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.card-date {
+  font-size: 1.1rem;
+  color: #555;
+  font-family: "Segoe UI", "Roboto", sans-serif;
+}
+
+@media (max-width: 400px) {
+  .card {
+    width: 90%;
+    padding: 20px 20px;
+  }
+
+  .card-heading {
+    font-size: 1.15rem;
+  }
+
+  .card-date {
+    font-size: 1rem;
+  }
+}

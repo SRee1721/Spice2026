@@ -1,0 +1,47 @@
+.conference {
+  background-color: white;
+  color: black;
+  padding: 200px 200px;
+  line-height: 1.7;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+.conference h1 {
+  color: #000;
+  font-size: 4rem;
+  margin-bottom: 20px;
+  text-align: left;
+  font-weight: 100px;
+}
+.conference p {
+  font-size: 2rem;
+  color: #333;
+  text-align: justify;
+}
+
+
+
+@media (max-width: 1024px) {
+  .conference {
+    padding: 100px 80px;
+  }
+  .conference h1 {
+    font-size: 3rem;
+  }
+  .conference p {
+    font-size: 1.5rem;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .conference {
+    padding: 60px 20px;
+  }
+  .conference h1 {
+    font-size: 2.5rem;
+  }
+  .conference p {
+    font-size: 1.1rem;
+    text-align: left;
+  }
+}
