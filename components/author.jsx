@@ -23,7 +23,10 @@ function Author() {
           conference as an author by paying the registration fee when the time
           for registration is open.
         </p>
-
+        <p className="auth-abstract">
+          Here is the Abstract Template Format <br />
+          <a href="/SPICE2026 - Abstract format.docx">Abstract Template</a>
+        </p>
         {/* 3. Classes are applied directly to the <p> tags */}
         <p className="auth-note">
           Only the registered authors will be allowed to participate and present
@@ -36,8 +39,6 @@ function Author() {
           Submit your abstract to the following conference mail ID:
           spice2026@ssn.edu.in
         </p>
-
-        
       </div>
     </div>
   );

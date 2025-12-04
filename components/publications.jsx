@@ -7,20 +7,20 @@ function Publications() {
 
       <div className="journals">
         <h4 className="list-title">List of Journals approached:</h4>
-
-        <ol>
-          {/* <li>AIP Conference proceedings</li>
+        <p>Yet to Update</p>
+        {/* <ol>
+           <li>AIP Conference proceedings</li>
           <li>Materials Science Forum</li>
           <li>Sustainable Civil Infrastructure</li>
           <li>E3S Web of Conferences</li>
           <li>Lecture Notes in Civil Engineering</li>
-          <li>Materials Today Proceedings</li> */}
+          <li>Materials Today Proceedings</li> 
           <li>Sustainable Civil Infrastructure</li>
           <li>
             International Journal of Sustainable Construction, Engineering &
             Technology
           </li>
-        </ol>
+        </ol> */}
       </div>
     </div>
   );
