@@ -114,7 +114,7 @@ function Department() {
             <img src="Dr. Pijush Samui.jpeg" alt="Dr. Pijush Samui" />
             <h3>Dr. Pijush Samui</h3>
             <p>
-              Professor & Dean (Planning & Development)
+              Professor
               <br />
               Department of Civil Engineering
               <br />
